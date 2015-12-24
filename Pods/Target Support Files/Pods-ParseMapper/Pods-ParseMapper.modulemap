@@ -1,0 +1,6 @@
+framework module Pods_ParseMapper {
+  umbrella header "Pods-ParseMapper-umbrella.h"
+
+  export *
+  module * { export * }
+}

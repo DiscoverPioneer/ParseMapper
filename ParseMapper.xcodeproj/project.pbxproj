@@ -12,6 +12,17 @@
 		4A22648B1C2B5DE500AEC31F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2264891C2B5DE500AEC31F /* Main.storyboard */; };
 		4A22648D1C2B5DE500AEC31F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A22648C1C2B5DE500AEC31F /* Assets.xcassets */; };
 		4A2264901C2B5DE500AEC31F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A22648E1C2B5DE500AEC31F /* LaunchScreen.storyboard */; };
+		4A2264A51C2B601E00AEC31F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A22649B1C2B601E00AEC31F /* AudioToolbox.framework */; };
+		4A2264A61C2B601E00AEC31F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A22649C1C2B601E00AEC31F /* CFNetwork.framework */; };
+		4A2264A71C2B601E00AEC31F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A22649D1C2B601E00AEC31F /* CoreGraphics.framework */; };
+		4A2264A81C2B601E00AEC31F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A22649E1C2B601E00AEC31F /* CoreLocation.framework */; };
+		4A2264A91C2B601E00AEC31F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A22649F1C2B601E00AEC31F /* libsqlite3.tbd */; };
+		4A2264AA1C2B601E00AEC31F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2264A01C2B601E00AEC31F /* libz.tbd */; };
+		4A2264AB1C2B601E00AEC31F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2264A11C2B601E00AEC31F /* MapKit.framework */; };
+		4A2264AC1C2B601E00AEC31F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2264A21C2B601E00AEC31F /* QuartzCore.framework */; };
+		4A2264AD1C2B601E00AEC31F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2264A31C2B601E00AEC31F /* Security.framework */; };
+		4A2264AE1C2B601E00AEC31F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2264A41C2B601E00AEC31F /* SystemConfiguration.framework */; };
+		7F87BCB84C209F107389488E /* Pods_ParseMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AC53155185E1A1D6E0DF07 /* Pods_ParseMapper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,20 @@
 		4A22648C1C2B5DE500AEC31F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A22648F1C2B5DE500AEC31F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A2264911C2B5DE500AEC31F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2264971C2B5FA100AEC31F /* ParseMapper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParseMapper-Bridging-Header.h"; sourceTree = "<group>"; };
+		4A22649B1C2B601E00AEC31F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4A22649C1C2B601E00AEC31F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4A22649D1C2B601E00AEC31F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A22649E1C2B601E00AEC31F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4A22649F1C2B601E00AEC31F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4A2264A01C2B601E00AEC31F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4A2264A11C2B601E00AEC31F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4A2264A21C2B601E00AEC31F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4A2264A31C2B601E00AEC31F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4A2264A41C2B601E00AEC31F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		63AC53155185E1A1D6E0DF07 /* Pods_ParseMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCADF9A53C608BFEBE789A48 /* Pods-ParseMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseMapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseMapper/Pods-ParseMapper.debug.xcconfig"; sourceTree = "<group>"; };
+		D9847FB58986E816BF5BA459 /* Pods-ParseMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseMapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseMapper/Pods-ParseMapper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +54,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2264A51C2B601E00AEC31F /* AudioToolbox.framework in Frameworks */,
+				4A2264A61C2B601E00AEC31F /* CFNetwork.framework in Frameworks */,
+				4A2264A71C2B601E00AEC31F /* CoreGraphics.framework in Frameworks */,
+				4A2264A81C2B601E00AEC31F /* CoreLocation.framework in Frameworks */,
+				4A2264A91C2B601E00AEC31F /* libsqlite3.tbd in Frameworks */,
+				4A2264AA1C2B601E00AEC31F /* libz.tbd in Frameworks */,
+				4A2264AB1C2B601E00AEC31F /* MapKit.framework in Frameworks */,
+				4A2264AC1C2B601E00AEC31F /* QuartzCore.framework in Frameworks */,
+				4A2264AD1C2B601E00AEC31F /* Security.framework in Frameworks */,
+				4A2264AE1C2B601E00AEC31F /* SystemConfiguration.framework in Frameworks */,
+				7F87BCB84C209F107389488E /* Pods_ParseMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +76,8 @@
 			children = (
 				4A2264841C2B5DE500AEC31F /* ParseMapper */,
 				4A2264831C2B5DE500AEC31F /* Products */,
+				74CA496739F079CD1FE4B73A /* Pods */,
+				6BE1FB9F6B4FB58B510107A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +98,36 @@
 				4A22648C1C2B5DE500AEC31F /* Assets.xcassets */,
 				4A22648E1C2B5DE500AEC31F /* LaunchScreen.storyboard */,
 				4A2264911C2B5DE500AEC31F /* Info.plist */,
+				4A2264971C2B5FA100AEC31F /* ParseMapper-Bridging-Header.h */,
 			);
 			path = ParseMapper;
+			sourceTree = "<group>";
+		};
+		6BE1FB9F6B4FB58B510107A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A22649B1C2B601E00AEC31F /* AudioToolbox.framework */,
+				4A22649C1C2B601E00AEC31F /* CFNetwork.framework */,
+				4A22649D1C2B601E00AEC31F /* CoreGraphics.framework */,
+				4A22649E1C2B601E00AEC31F /* CoreLocation.framework */,
+				4A22649F1C2B601E00AEC31F /* libsqlite3.tbd */,
+				4A2264A01C2B601E00AEC31F /* libz.tbd */,
+				4A2264A11C2B601E00AEC31F /* MapKit.framework */,
+				4A2264A21C2B601E00AEC31F /* QuartzCore.framework */,
+				4A2264A31C2B601E00AEC31F /* Security.framework */,
+				4A2264A41C2B601E00AEC31F /* SystemConfiguration.framework */,
+				63AC53155185E1A1D6E0DF07 /* Pods_ParseMapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74CA496739F079CD1FE4B73A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCADF9A53C608BFEBE789A48 /* Pods-ParseMapper.debug.xcconfig */,
+				D9847FB58986E816BF5BA459 /* Pods-ParseMapper.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A2264941C2B5DE500AEC31F /* Build configuration list for PBXNativeTarget "ParseMapper" */;
 			buildPhases = (
+				4DAEB10F0F86E4BE6BE6A379 /* Check Pods Manifest.lock */,
 				4A22647E1C2B5DE500AEC31F /* Sources */,
 				4A22647F1C2B5DE500AEC31F /* Frameworks */,
 				4A2264801C2B5DE500AEC31F /* Resources */,
+				E1228E15EE55642ECC5AC58E /* Embed Pods Frameworks */,
+				FCC90F92FD0C896484B6C52B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +198,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DAEB10F0F86E4BE6BE6A379 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1228E15EE55642ECC5AC58E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseMapper/Pods-ParseMapper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC90F92FD0C896484B6C52B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseMapper/Pods-ParseMapper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A22647E1C2B5DE500AEC31F /* Sources */ = {
@@ -247,23 +364,32 @@
 		};
 		4A2264951C2B5DE500AEC31F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCADF9A53C608BFEBE789A48 /* Pods-ParseMapper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ParseMapper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Pioneer.ParseMapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ParseMapper/ParseMapper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		4A2264961C2B5DE500AEC31F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9847FB58986E816BF5BA459 /* Pods-ParseMapper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ParseMapper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Pioneer.ParseMapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ParseMapper/ParseMapper-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +412,7 @@
 				4A2264961C2B5DE500AEC31F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
